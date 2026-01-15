@@ -1,0 +1,52 @@
+{
+  "Name": "XP-Pen Star 03 v2",
+  "Specifications": {
+    "Digitizer": {
+      "Width": 260.0,
+      "Height": 170.0,
+      "MaxX": 52000.0,
+      "MaxY": 34000.0
+    },
+    "Pen": {
+      "MaxPressure": 8191,
+      "ButtonCount": 2
+    },
+    "AuxiliaryButtons": {
+      "Count": 8
+    },
+    "MouseButtons": null,
+    "Touch": null
+  },
+  "DigitizerIdentifiers": [
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "InputReportLength": 12,
+      "OutputReportLength": 10,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
+      "OutputInitReport": [
+        "ArAE"
+      ],
+      "DeviceStrings": {},
+      "InitializationStrings": []
+    }
+  ],
+  "AuxiliaryDeviceIdentifiers": [
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "InputReportLength": 12,
+      "OutputReportLength": null,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
+      "FeatureInitReport": [
+        "AgI="
+      ],
+      "OutputInitReport": null,
+      "DeviceStrings": {},
+      "InitializationStrings": []
+    }
+  ],
+  "Attributes": {
+    "libinputoverride": "1"
+  }
+}
