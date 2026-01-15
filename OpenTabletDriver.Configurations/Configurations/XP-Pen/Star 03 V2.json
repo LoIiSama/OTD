@@ -16,16 +16,6 @@
     }
   },
   "DigitizerIdentifiers": [
-    // 10moon
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.TenMoon.TenMoonReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    
     // Acepen
     {
       "VendorID": 10429,
