@@ -1,0 +1,57 @@
+{
+  "Name": "XP-Pen Star 03 v2",
+  "Specifications": {
+    "Digitizer": {
+      "Width": 260.0,
+      "Height": 170.0,
+      "MaxX": 26000.0,
+      "MaxY": 17000.0
+    },
+    "Pen": {
+      "MaxPressure": 8191,
+      "ButtonCount": 2
+    },
+    "AuxiliaryButtons": {
+      "Count": 8
+    },
+    "MouseButtons": null,
+    "Touch": null
+  },
+  "DigitizerIdentifiers": [
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "InputReportLength": 10,
+      "OutputReportLength": null,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
+      "FeatureInitReport": [
+        "AgI="
+      ],
+      "OutputInitReport": null,
+      "DeviceStrings": {},
+      "InitializationStrings": [],
+      "DevicePaths": [
+        "\\\\?\\HID#VID_28BD&PID_0907&MI_01#8&2ac8ea0f&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}"
+      ]
+    }
+  ],
+  "AuxiliaryDeviceIdentifiers": [
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "InputReportLength": 12,
+      "OutputReportLength": null,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
+      "FeatureInitReport": [
+        "AgI="
+      ],
+      "OutputInitReport": null,
+      "DeviceStrings": {},
+      "InitializationStrings": [],
+      "DevicePaths": [
+        "\\\\?\\HID#VID_28BD&PID_0907&MI_02#8&6f1ac4d&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}"
+      ]
+    }
+  ],
+  "Attributes": {}
+}
