@@ -1,5 +1,5 @@
 {
-  "Name": "XP-Pen Star 03 v2 (ALL PARSERS)",
+  "Name": "XP-Pen Star 03 v2 (Cleaned)",
   "Specifications": {
     "Digitizer": {
       "Width": 260.0,
@@ -16,275 +16,14 @@
     }
   },
   "DigitizerIdentifiers": [
-    // Acepen
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Acepen.AcepenReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    
-    // FlooGoo (FMA)
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.FlooGoo.FmaReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    
-    // Genius
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Genius.GeniusReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Genius.GeniusReportParserV2",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Genius.GeniusTabletReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    
-    // Huion
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Huion.InspiroyReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Huion.HuionTiltReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Huion.GianoReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    
-    // Lifetec
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.LifeTec.LifetecReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    
-    // RobotPen
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.RobotPen.RobotPenReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    
-    // UC-Logic
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicTiltReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicV1ReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicV2ReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    
-    // Veikk
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkA15ReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkTiltReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkV1ReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    
-    // ViewSonic (WoodPad)
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.ViewSonic.WoodPadParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    
-    // Wacom
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.Bamboo.BambooReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.BambooV2.BambooV2ReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.Graphire.GraphireReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.Intuos.IntuosReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.IntuosV1.IntuosV1ReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.IntuosV2.IntuosV2ReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.IntuosV3.IntuosV3ReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.IntuosV4.IntuosV4ReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.IntuosV5.IntuosV5ReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.IntuosPro.IntuosProReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    
-    // XENX
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XENX.XENXReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    
-    // XP-Pen
+    // 1. ВСЕ XP-Pen парсеры (самые вероятные)
     {
       "VendorID": 10429,
       "ProductID": 2311,
       "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
       "DeviceStrings": {
-        "1": "UGTABLET"
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
       }
     },
     {
@@ -292,7 +31,8 @@
       "ProductID": 2311,
       "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenGen2ReportParser",
       "DeviceStrings": {
-        "1": "UGTABLET"
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
       }
     },
     {
@@ -300,71 +40,178 @@
       "ProductID": 2311,
       "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenOffsetPressureReportParser",
       "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenDedicatedAuxReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
-      }
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenOffsetAuxReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET"
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
       }
     },
     
-    // XenceLabs
+    // 2. UC-Logic (база многих китайских планшетов)
     {
       "VendorID": 10429,
       "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XenceLabs.XenceLabsReportParser",
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicReportParser",
       "DeviceStrings": {
-        "1": "UGTABLET"
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicV1ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicV2ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicTiltReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
       }
     },
     
-    // Общие парсеры
+    // 3. Huion (тоже китайские, могут быть совместимы)
     {
       "VendorID": 10429,
       "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.SkipByteTabletReportParser",
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Huion.InspiroyReportParser",
       "DeviceStrings": {
-        "1": "UGTABLET"
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
       }
     },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Huion.HuionTiltReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Huion.GianoReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 4. Veikk (еще один китайский бренд)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkA15ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkV1ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkTiltReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 5. Wacom (на всякий случай)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.Intuos.IntuosReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.IntuosV1.IntuosV1ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.IntuosV2.IntuosV2ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 6. XENX
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XENX.XENXReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 7. UCLogicTabletReportParser (общий)
     {
       "VendorID": 10429,
       "ProductID": 2311,
       "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogicTabletReportParser",
       "DeviceStrings": {
-        "1": "UGTABLET"
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
       }
     },
     
-    // Без парсера (автовыбор OTD)
+    // 9. Без парсера (автовыбор OTD)
     {
       "VendorID": 10429,
       "ProductID": 2311,
       "DeviceStrings": {
-        "1": "UGTABLET"
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
       }
     },
     
-    // Без DeviceStrings
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser"
-    },
-    
-    // Абсолютный минимум
+    // 10. Абсолютный минимум
     {
       "VendorID": 10429,
       "ProductID": 2311
