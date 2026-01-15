@@ -2,8 +2,8 @@
   "Name": "XP-Pen Star 03 V2",
   "Specifications": {
     "Digitizer": {
-      "Width": 260.0,
-      "Height": 170.0,
+      "Width": 260,
+      "Height": 170,
       "MaxX": 104000,
       "MaxY": 68000
     },
@@ -25,3 +25,4 @@
     }
   ]
 }
+
