@@ -27,8 +27,14 @@
       "OutputInitReport": [
         "ArAE"
       ],
-      "DeviceStrings": {},
-      "InitializationStrings": []
+      "DeviceStrings": {
+        "ProductName": "10 inch PenTablet"
+      },
+      "InitializationStrings": [],
+      "DevicePaths": [
+        "\\\\?\\USB#VID_28BD&PID_0907&MI_01#7&3b79fd12&0&0001#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}",
+        "\\\\?\\HID#VID_28BD&PID_0907&MI_01#8&2ac8ea0f&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}"
+      ]
     }
   ],
   "AuxiliaryDeviceIdentifiers": [
@@ -42,8 +48,14 @@
         "AgI="
       ],
       "OutputInitReport": null,
-      "DeviceStrings": {},
-      "InitializationStrings": []
+      "DeviceStrings": {
+        "ProductName": "10 inch PenTablet"
+      },
+      "InitializationStrings": [],
+      "DevicePaths": [
+        "\\\\?\\USB#VID_28BD&PID_0907&MI_02#7&3b79fd12&0&0002#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}",
+        "\\\\?\\HID#VID_28BD&PID_0907&MI_02#8&6f1ac4d&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}"
+      ]
     }
   ],
   "Attributes": {
