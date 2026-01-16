@@ -1,5 +1,5 @@
 {
-  "Name": "XP-Pen Star 03 v2 (Simple)",
+  "Name": "XP-Pen Star 03 v2 (Cleaned)",
   "Specifications": {
     "Digitizer": {
       "Width": 260.0,
@@ -16,31 +16,464 @@
     }
   },
   "DigitizerIdentifiers": [
+    // 1. ВСЕ XP-Pen парсеры (самые вероятные)
     {
       "VendorID": 10429,
       "ProductID": 2311,
-      "InputReportLength": 10,
-      "OutputReportLength": 8,
       "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
-      "OutputInitReport": ["ArAE"],
       "DeviceStrings": {
         "1": "UGTABLET",
         "2": "10 inch PenTablet"
       }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenGen2ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenOffsetPressureReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 2. UC-Logic (база многих китайских планшетов)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicV1ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicV2ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicTiltReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 3. Huion (тоже китайские, могут быть совместимы)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Huion.InspiroyReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Huion.HuionTiltReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Huion.GianoReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 4. Veikk (еще один китайский бренд)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkA15ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkV1ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkTiltReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 5. Wacom (на всякий случай)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.Intuos.IntuosReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.IntuosV1.IntuosV1ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.IntuosV2.IntuosV2ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 6. XENX
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XENX.XENXReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 7. UCLogicTabletReportParser (общий)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogicTabletReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 8. GeniusTabletReportParser (оставил т.к. не 100% что это Genius)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Genius.GeniusTabletReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Genius.GeniusReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 9. Без парсера (автовыбор OTD)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 10. Абсолютный минимум
+    { {
+  "Name": "XP-Pen Star 03 v2 (Cleaned)",
+  "Specifications": {
+    "Digitizer": {
+      "Width": 260.0,
+      "Height": 170.0,
+      "MaxX": 52000.0,
+      "MaxY": 34000.0
+    },
+    "Pen": {
+      "MaxPressure": 8191,
+      "ButtonCount": 2
+    },
+    "AuxiliaryButtons": {
+      "Count": 8
     }
-  ],
-  "AuxiliaryDeviceIdentifiers": [
+  },
+  "DigitizerIdentifiers": [
+    // 1. ВСЕ XP-Pen парсеры (самые вероятные)
     {
       "VendorID": 10429,
       "ProductID": 2311,
-      "InputReportLength": 12,
-      "OutputReportLength": null,
       "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
-      "FeatureInitReport": ["AgI="],
       "DeviceStrings": {
         "1": "UGTABLET",
         "2": "10 inch PenTablet"
       }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenGen2ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenOffsetPressureReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 2. UC-Logic (база многих китайских планшетов)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicV1ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicV2ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogic.UCLogicTiltReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 3. Huion (тоже китайские, могут быть совместимы)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Huion.InspiroyReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Huion.HuionTiltReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Huion.GianoReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 4. Veikk (еще один китайский бренд)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkA15ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkV1ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Veikk.VeikkTiltReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 5. Wacom (на всякий случай)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.Intuos.IntuosReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.IntuosV1.IntuosV1ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.IntuosV2.IntuosV2ReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 6. XENX
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XENX.XENXReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 7. UCLogicTabletReportParser (общий)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.UCLogicTabletReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 8. GeniusTabletReportParser (оставил т.к. не 100% что это Genius)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Genius.GeniusTabletReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Genius.GeniusReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 9. Без парсера (автовыбор OTD)
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
+      }
+    },
+    
+    // 10. Абсолютный минимум
+    {
+      "VendorID": 10429,
+      "ProductID": 2311
     }
   ]
-}
+    }
+      "VendorID": 10429,
+      "ProductID": 2311
+    }
+  ]
+    }
