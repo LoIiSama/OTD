@@ -12,7 +12,7 @@
       "ButtonCount": 2
     },
     "AuxiliaryButtons": {
-      "Count": 8
+      "ButtonCount": 8
     }
   },
   "DigitizerIdentifiers": [
@@ -44,7 +44,6 @@
         "2": "10 inch PenTablet"
       }
     },
-    
     // UC-Logic
     {
       "VendorID": 10429,
@@ -82,7 +81,6 @@
         "2": "10 inch PenTablet"
       }
     },
-    
     // Huion
     {
       "VendorID": 10429,
@@ -111,7 +109,6 @@
         "2": "10 inch PenTablet"
       }
     },
-    
     // Veikk
     {
       "VendorID": 10429,
@@ -149,7 +146,6 @@
         "2": "10 inch PenTablet"
       }
     },
-    
     // Wacom
     {
       "VendorID": 10429,
@@ -178,7 +174,6 @@
         "2": "10 inch PenTablet"
       }
     },
-    
     // XENX
     {
       "VendorID": 10429,
@@ -189,7 +184,6 @@
         "2": "10 inch PenTablet"
       }
     },
-    
     // UCLogicTabletReportParser
     {
       "VendorID": 10429,
@@ -201,4 +195,4 @@
       }
     }
   ]
- }
+}
