@@ -4,26 +4,47 @@
     "Digitizer": {
       "Width": 260.0,
       "Height": 170.0,
-      "MaxX": 54600.0,
-      "MaxY": 35700.0
+      "MaxX": 52000.0,
+      "MaxY": 34000.0
     },
     "Pen": {
       "MaxPressure": 8191,
       "ButtonCount": 2
     },
     "AuxiliaryButtons": {
-      "Count": 8
+      "ButtonCount": 8
     }
   },
   "DigitizerIdentifiers": [
     {
       "VendorID": 10429,
       "ProductID": 2311,
+      "InputReportLength": 10,
+      "OutputReportLength": 8,
       "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET",
-        "2": "10 inch PenTablet"
-      }
+      "OutputInitReport": [
+        "ArAE"
+      ]
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "InputReportLength": 10,
+      "OutputReportLength": 10,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
+      "OutputInitReport": [
+        "ArAE"
+      ]
+    },
+    {
+      "VendorID": 10429,
+      "ProductID": 2311,
+      "InputReportLength": 12,
+      "OutputReportLength": 10,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
+      "OutputInitReport": [
+        "ArAE"
+      ]
     }
   ]
 }
