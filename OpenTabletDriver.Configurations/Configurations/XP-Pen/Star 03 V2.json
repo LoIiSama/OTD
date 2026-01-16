@@ -1,5 +1,5 @@
 {
-  "Name": "XP-Pen Star 03 v2 (Cleaned)",
+  "Name": "XP-Pen Star 03 v2 (Simple)",
   "Specifications": {
     "Digitizer": {
       "Width": 260.0,
@@ -12,7 +12,7 @@
       "ButtonCount": 2
     },
     "AuxiliaryButtons": {
-      "ButtonCount": 8
+      "Count": 8
     }
   },
   "DigitizerIdentifiers": [
@@ -22,38 +22,25 @@
       "InputReportLength": 10,
       "OutputReportLength": 8,
       "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
+      "OutputInitReport": ["ArAE"],
       "DeviceStrings": {
         "1": "UGTABLET",
         "2": "10 inch PenTablet"
-      "OutputInitReport": [
-        "ArAE"
-      ]
-    },
-    {
-      "VendorID": 10429,
-      "ProductID": 2311,
-      "InputReportLength": 10,
-      "OutputReportLength": 10,
-      "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
-      "DeviceStrings": {
-        "1": "UGTABLET",
-        "2": "10 inch PenTablet"
-      "OutputInitReport": [
-        "ArAE"
-      ]
-    },
+      }
+    }
+  ],
+  "AuxiliaryDeviceIdentifiers": [
     {
       "VendorID": 10429,
       "ProductID": 2311,
       "InputReportLength": 12,
-      "OutputReportLength": 10,
+      "OutputReportLength": null,
       "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
+      "FeatureInitReport": ["AgI="],
       "DeviceStrings": {
         "1": "UGTABLET",
         "2": "10 inch PenTablet"
-      "OutputInitReport": [
-        "ArAE"
-      ]
+      }
     }
   ]
 }
