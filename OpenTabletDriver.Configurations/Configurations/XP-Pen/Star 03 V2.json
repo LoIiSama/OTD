@@ -22,6 +22,9 @@
       "InputReportLength": 10,
       "OutputReportLength": 8,
       "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
       "OutputInitReport": [
         "ArAE"
       ]
@@ -32,6 +35,9 @@
       "InputReportLength": 10,
       "OutputReportLength": 10,
       "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
       "OutputInitReport": [
         "ArAE"
       ]
@@ -42,6 +48,9 @@
       "InputReportLength": 12,
       "OutputReportLength": 10,
       "ReportParser": "OpenTabletDriver.Configurations.Parsers.XP_Pen.XP_PenReportParser",
+      "DeviceStrings": {
+        "1": "UGTABLET",
+        "2": "10 inch PenTablet"
       "OutputInitReport": [
         "ArAE"
       ]
